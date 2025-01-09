@@ -1,0 +1,99 @@
+@UTF-8;
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(../fontes/Sriracha.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url(../fontes/PassionOne.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+
+body,
+html {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 9vw;
+    font-family: PassionOne;
+}
+
+header p {
+    padding-bottom: 30px;
+}
+
+article {
+    padding-left: 30px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    font-family: sriracha;
+    font-size: 3vw;
+}
+
+
+
+article.branco {
+    background-color: white;
+    color: black;
+}
+
+
+article.imagem {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.288);
+}
+
+article.imagem > p {
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.651);
+    display: inline-block;
+}
+
+
+article>p {
+    padding-bottom: 2em;
+}
+
+#im01 {
+    background-image: url(../imagens/flores.png);
+
+}
+
+#im02 {
+    background-image: url(../imagens/papel.jpg);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 1em;
+    padding: 10px;
+}
